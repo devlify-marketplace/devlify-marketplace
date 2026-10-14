@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="250" viewBox="0 0 1100 250" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering Focus</title>
+  <desc id="desc">Four product engineering themes: secure applications, end-to-end systems, AI and developer tools, reliable delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091322"/><stop offset="1" stop-color="#191235"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#0ea5e9"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1098" height="248" rx="24" fill="url(#bg)" stroke="#334155" stroke-width="2"/>
+  <text x="42" y="48" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#f1f5f9">ENGINEERING FOCUS</text>
+  <text x="1058" y="47" text-anchor="end" font-family="JetBrains Mono,monospace" font-size="12" fill="#94a3b8">BUILD · SECURE · SHIP</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(35 72)">
+      <rect width="245" height="137" rx="17" fill="#0f2031" stroke="#155e75"/>
+      <circle cx="36" cy="37" r="20" fill="#083344"/><path d="M36 23l12 5v9c0 9-6 15-12 18-6-3-12-9-12-18v-9z" fill="none" stroke="url(#cyan)" stroke-width="2.5"/><path d="M31 37l4 4 7-8" fill="none" stroke="#67e8f9" stroke-width="2.5"/>
+      <text x="68" y="39" font-size="16" font-weight="700" fill="#e2e8f0">Secure Applications</text>
+      <text x="20" y="84" font-size="13" fill="#94a3b8">Cybersecurity-minded product</text><text x="20" y="104" font-size="13" fill="#94a3b8">engineering and safer workflows</text>
+    </g>
+    <g transform="translate(305 72)">
+      <rect width="245" height="137" rx="17" fill="#111b33" stroke="#4338ca"/>
+      <circle cx="36" cy="37" r="20" fill="#1e1b4b"/><path d="M24 31h24v16H24zM29 25h14v6H29zM31 47v6m10-6v6" fill="none" stroke="url(#violet)" stroke-width="2.5" stroke-linejoin="round"/>
+      <text x="68" y="39" font-size="16" font-weight="700" fill="#e2e8f0">Full-Stack Systems</text>
+      <text x="20" y="84" font-size="13" fill="#94a3b8">Interfaces, APIs, data and</text><text x="20" y="104" font-size="13" fill="#94a3b8">complete business products</text>
+    </g>
+    <g transform="translate(575 72)">
+      <rect width="245" height="137" rx="17" fill="#0f2031" stroke="#155e75"/>
+      <circle cx="36" cy="37" r="20" fill="#083344"/><path d="M26 45l10-20 10 20M30 38h12M24 50h24" fill="none" stroke="url(#cyan)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="68" y="39" font-size="16" font-weight="700" fill="#e2e8f0">AI &amp; Developer Tools</text>
+      <text x="20" y="84" font-size="13" fill="#94a3b8">Useful automation, ML and</text><text x="20" y="104" font-size="13" fill="#94a3b8">software for builders</text>
+    </g>
+    <g transform="translate(845 72)">
+      <rect width="220" height="137" rx="17" fill="#111b33" stroke="#4338ca"/>
+      <circle cx="36" cy="37" r="20" fill="#1e1b4b"/><path d="M27 38l6 6 13-15" fill="none" stroke="url(#violet)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="36" cy="37" r="14" fill="none" stroke="#8b5cf6" stroke-width="1.5"/>
+      <text x="68" y="39" font-size="16" font-weight="700" fill="#e2e8f0">Reliable Delivery</text>
+      <text x="20" y="84" font-size="13" fill="#94a3b8">Maintainable code, verification</text><text x="20" y="104" font-size="13" fill="#94a3b8">and thoughtful releases</text>
+    </g>
+  </g>
+</svg>
