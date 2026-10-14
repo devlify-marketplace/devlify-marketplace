@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350" role="img" aria-label="Animated terminal introducing Sadiq Abdullahi">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".22"/><stop offset=".5" stop-color="#e6cf9d" stop-opacity=".2"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".25"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#131c30"/><stop offset="1" stop-color="#0d1424"/></linearGradient>
+    <radialGradient id="glow" cx=".85" cy="0" r=".9"><stop offset="0" stop-color="#22d3ee" stop-opacity=".12"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <clipPath id="win"><rect width="900" height="350" rx="22"/></clipPath>
+  </defs>
+  <style>
+    @keyframes t0{0%,4.891%{transform:translateX(0)}7.880%,99.99%{transform:translateX(75.2px)}100%{transform:translateX(0)}}
+    @keyframes v0{0%,4.881%{opacity:0}4.891%,7.880%{opacity:1}7.890%,100%{opacity:0}}
+    @keyframes t1{0%,9.783%{transform:translateX(0)}17.174%,99.99%{transform:translateX(639.2px)}100%{transform:translateX(0)}}
+    @keyframes v1{0%,9.773%{opacity:0}9.783%,17.174%{opacity:1}17.184%,100%{opacity:0}}
+    @keyframes t2{0%,20.163%{transform:translateX(0)}26.168%,99.99%{transform:translateX(159.8px)}100%{transform:translateX(0)}}
+    @keyframes v2{0%,20.153%{opacity:0}20.163%,26.168%{opacity:1}26.178%,100%{opacity:0}}
+    @keyframes t3{0%,28.071%{transform:translateX(0)}35.136%,99.99%{transform:translateX(611.0px)}100%{transform:translateX(0)}}
+    @keyframes v3{0%,28.061%{opacity:0}28.071%,35.136%{opacity:1}35.146%,100%{opacity:0}}
+    @keyframes t4{0%,38.125%{transform:translateX(0)}42.364%,99.99%{transform:translateX(112.8px)}100%{transform:translateX(0)}}
+    @keyframes v4{0%,38.115%{opacity:0}38.125%,42.364%{opacity:1}42.374%,100%{opacity:0}}
+    @keyframes t5{0%,44.266%{transform:translateX(0)}52.092%,99.99%{transform:translateX(676.8px)}100%{transform:translateX(0)}}
+    @keyframes v5{0%,44.256%{opacity:0}44.266%,52.092%{opacity:1}52.102%,100%{opacity:0}}
+    @keyframes t6{0%,55.082%{transform:translateX(0)}62.853%,99.99%{transform:translateX(206.8px)}100%{transform:translateX(0)}}
+    @keyframes v6{0%,55.072%{opacity:0}55.082%,62.853%{opacity:1}62.863%,100%{opacity:0}}
+    @keyframes t7{0%,64.755%{transform:translateX(0)}68.668%,99.99%{transform:translateX(338.4px)}100%{transform:translateX(0)}}
+    @keyframes v7{0%,64.745%{opacity:0}64.755%,68.668%{opacity:1}68.678%,100%{opacity:0}}
+    @keyframes fin{0%,71.658%{opacity:0}72.158%,100%{opacity:1}}
+    .fade{animation:fade 18.4s linear infinite}
+    @keyframes fade{0%,93%{opacity:1}97%,99.9%{opacity:0}100%{opacity:1}}
+    .blink{animation:fin 18.4s linear infinite,bl 1.05s steps(1) infinite}
+    @keyframes bl{50%{visibility:hidden}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}.cov,.cur{display:none}.blink{opacity:1}}
+  </style>
+  <g clip-path="url(#win)">
+    <rect width="900" height="350" fill="#080c15"/>
+    <rect width="900" height="46" fill="url(#bar)"/>
+    <line x1="0" y1="46" x2="900" y2="46" stroke="#1f2a3d"/>
+    <circle cx="30" cy="23" r="6" fill="#ff5f57" opacity=".85"/><circle cx="52" cy="23" r="6" fill="#febc2e" opacity=".85"/><circle cx="74" cy="23" r="6" fill="#28c840" opacity=".85"/>
+    <text x="450.0" y="28" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6b7a92">sadiq@devlify: ~/secure-products</text>
+    <g class="fade">
+      <text x="40" y="100" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">$ </tspan><tspan fill="#67e8f9">whoami</tspan></text>
+      <g><rect class="cov" x="38" y="81" width="135" height="28" fill="#080c15" style="animation:t0 18.4s steps(8) infinite"/>
+      <rect class="cur" x="38" y="84" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t0 18.4s steps(8) infinite,v0 18.4s linear infinite"/></g>
+      <text x="40" y="126" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#f4f6fb">sadiq-abdullahi</tspan><tspan fill="#aab6c8">, software developer and full-stack engineer</tspan></text>
+      <g><rect class="cov" x="38" y="107" width="699" height="28" fill="#080c15" style="animation:t1 18.4s steps(68) infinite"/>
+      <rect class="cur" x="38" y="110" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t1 18.4s steps(68) infinite,v1 18.4s linear infinite"/></g>
+      <text x="40" y="156" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">$ </tspan><tspan fill="#67e8f9">cat </tspan><tspan fill="#f4f6fb">mission.txt</tspan></text>
+      <g><rect class="cov" x="38" y="137" width="220" height="28" fill="#080c15" style="animation:t2 18.4s steps(17) infinite"/>
+      <rect class="cur" x="38" y="140" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t2 18.4s steps(17) infinite,v2 18.4s linear infinite"/></g>
+      <text x="40" y="182" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#aab6c8">Turn practical problems into dependable, secure digital products.</tspan></text>
+      <g><rect class="cov" x="38" y="163" width="671" height="28" fill="#080c15" style="animation:t3 18.4s steps(65) infinite"/>
+      <rect class="cur" x="38" y="166" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t3 18.4s steps(65) infinite,v3 18.4s linear infinite"/></g>
+      <text x="40" y="212" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">$ </tspan><tspan fill="#67e8f9">ls </tspan><tspan fill="#f4f6fb">./focus</tspan></text>
+      <g><rect class="cov" x="38" y="193" width="173" height="28" fill="#080c15" style="animation:t4 18.4s steps(12) infinite"/>
+      <rect class="cur" x="38" y="196" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t4 18.4s steps(12) infinite,v4 18.4s linear infinite"/></g>
+      <text x="40" y="238" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#67e8f9">secure-apps/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#c4b5fd">full-stack-systems/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#67e8f9">ai-and-dev-tools/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#c4b5fd">reliable-delivery/</tspan></text>
+      <g><rect class="cov" x="38" y="219" width="737" height="28" fill="#080c15" style="animation:t5 18.4s steps(72) infinite"/>
+      <rect class="cur" x="38" y="222" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t5 18.4s steps(72) infinite,v5 18.4s linear infinite"/></g>
+      <text x="40" y="268" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">$ </tspan><tspan fill="#67e8f9">git </tspan><tspan fill="#f4f6fb">log -1 --oneline</tspan></text>
+      <g><rect class="cov" x="38" y="249" width="267" height="28" fill="#080c15" style="animation:t6 18.4s steps(22) infinite"/>
+      <rect class="cur" x="38" y="252" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t6 18.4s steps(22) infinite,v6 18.4s linear infinite"/></g>
+      <text x="40" y="294" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">a3f9c2e </tspan><tspan fill="#aab6c8">ship it, then make it better</tspan></text>
+      <g><rect class="cov" x="38" y="275" width="398" height="28" fill="#080c15" style="animation:t7 18.4s steps(36) infinite"/>
+      <rect class="cur" x="38" y="278" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t7 18.4s steps(36) infinite,v7 18.4s linear infinite"/></g>
+      <g class="blink" opacity="0"><text x="40" y="324" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5" fill="#e6cf9d">$</text><rect x="56.8" y="308" width="8" height="20" rx="1.5" fill="#67e8f9"/></g>
+    </g>
+    <rect y="46" width="900" height="304" fill="url(#glow)"/>
+  </g>
+  <rect x=".75" y=".75" width="898.5" height="348.5" rx="21.5" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

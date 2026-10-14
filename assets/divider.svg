@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="28" viewBox="0 0 900 28" role="presentation" aria-hidden="true">
+  <defs>
+    <linearGradient id="l" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e6cf9d" stop-opacity="0"/><stop offset="1" stop-color="#e6cf9d" stop-opacity=".55"/></linearGradient>
+    <linearGradient id="r" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee" stop-opacity=".55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".95"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="cl"><rect x="0" y="13" width="900" height="2"/></clipPath>
+  </defs>
+  <style>
+    .run{animation:run 5s ease-in-out infinite}
+    @keyframes run{from{transform:translateX(-140px)}to{transform:translateX(900px)}}
+    .dm{transform-box:fill-box;transform-origin:center;animation:dm 6s ease-in-out infinite}
+    @keyframes dm{50%{transform:rotate(90deg)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <rect x="40" y="13.5" width="380.0" height="1" fill="url(#l)"/>
+  <rect x="480.0" y="13.5" width="380.0" height="1" fill="url(#r)"/>
+  <g clip-path="url(#cl)"><rect class="run" x="0" y="0" width="140" height="28" fill="url(#g)"/></g>
+  <rect class="dm" x="445.0" y="9" width="10" height="10" rx="1.5" transform="rotate(45 450.0 14)" fill="none" stroke="#e6cf9d" stroke-width="1.5"/>
+  <circle cx="450.0" cy="14" r="2" fill="#67e8f9"/>
+</svg>
