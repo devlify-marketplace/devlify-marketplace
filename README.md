@@ -35,6 +35,10 @@ I’m **Sadiq Abdullahi**, a Software Developer and the founder of **[Devlify](h
 
 My work spans product development, application security, APIs, databases, automation, and deployment. I’m especially interested in software that is useful in the real world, safe to operate, and maintainable as it grows.
 
+## Engineering Focus
+
+I focus on dependable full-stack products, secure applications, AI and developer tools, and reliable delivery.
+
 <div align="center">
   <img src="./assets/engineering-focus.svg" width="100%" alt="Engineering focus: secure applications, full-stack systems, AI and developer tools, reliable delivery" />
 </div>
