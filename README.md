@@ -109,7 +109,7 @@ I focus on dependable full-stack products, applied AI/ML, developer tools, and r
 ## Connect
 - **Website:** [devlify.com.ng](https://devlify.com.ng)
 - **LinkedIn:** [Sadiq Abdullahi](https://www.linkedin.com/in/sadiq-abdullahi-970840349)
-- **Email:** [devsadeeqlabs@gmail.com](mailto:devsadeeqlabs@gmail.com)
+- **Email:** [sadiq@devlify.com.ng](mailto:sadiq@devlify.com.ng)
 - **ORCID:** [0009-0001-8535-0768](https://orcid.org/0009-0001-8535-0768)
 
 <br />
