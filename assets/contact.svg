@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="210" viewBox="0 0 900 210" role="img" aria-label="Need a software product built? Start a project with Devlify.">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05080f"/><stop offset="1" stop-color="#110d27"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".5" stop-color="#e6cf9d" stop-opacity=".2"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".22"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e6cf9d"/><stop offset="1" stop-color="#c9a96a"/></linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4e3b8"/><stop offset="1" stop-color="#c9a96a"/></linearGradient>
+    <filter id="bl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="50"/></filter>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="cc"><rect width="900" height="210" rx="30"/></clipPath>
+    <clipPath id="bc"><rect x="620" y="52" width="256" height="58" rx="29"/></clipPath>
+  </defs>
+  <style>
+    .dr1{animation:d1 14s ease-in-out infinite alternate} .dr2{animation:d2 18s ease-in-out infinite alternate}
+    @keyframes d1{to{transform:translate(-60px,20px)}} @keyframes d2{to{transform:translate(50px,-20px)}}
+    .ring{transform-box:fill-box;transform-origin:center;animation:ring 2.8s ease-out infinite}
+    @keyframes ring{from{transform:scale(1);opacity:.7}to{transform:scale(1.18,1.5);opacity:0}}
+    .sh{animation:sh 5s ease-in-out 1s infinite} @keyframes sh{0%{transform:translateX(-120px) skewX(-18deg)}40%,100%{transform:translateX(340px) skewX(-18deg)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#cc)">
+    <rect width="900" height="210" fill="url(#bg)"/>
+    <g filter="url(#bl)"><ellipse class="dr1" cx="760" cy="60" rx="240" ry="110" fill="#22d3ee" opacity=".20"/><ellipse class="dr2" cx="140" cy="220" rx="260" ry="90" fill="#c9a96a" opacity=".14"/><ellipse class="dr2" cx="880" cy="230" rx="200" ry="80" fill="#7c3aed" opacity=".3"/></g>
+  </g>
+  <text x="44" y="84" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="34" font-weight="600" fill="#f4f6fb">Need a software product built?</text>
+  <rect x="46" y="98" width="64" height="2.5" rx="1.2" fill="url(#gold)"/>
+  <text x="44" y="136" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#b9c6dc">Web and mobile products, APIs and AI/ML features,</text>
+  <text x="44" y="160" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#b9c6dc">with practical engineering and care, by Devlify.</text>
+  <rect class="ring" x="620" y="52" width="256" height="58" rx="29" fill="none" stroke="#e6cf9d" stroke-width="2"/>
+  <rect x="620" y="52" width="256" height="58" rx="29" fill="url(#btn)"/>
+  <g clip-path="url(#bc)"><rect class="sh" x="620" y="40" width="70" height="82" fill="url(#sheen)"/></g>
+  <text x="748" y="88" text-anchor="middle" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="18" font-weight="700" fill="#17130b">Start a project</text>
+  <g font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12.5" text-anchor="middle">
+    <rect x="620" y="130" width="124" height="30" rx="15" fill="#0b1324" stroke="#22304a"/><text x="682" y="150" fill="#67e8f9">devlify.com.ng</text>
+    <rect x="754" y="130" width="122" height="30" rx="15" fill="#0b1324" stroke="#22304a"/><text x="815" y="150" fill="#c4b5fd">Gusau, Nigeria</text>
+  </g>
+  <rect x=".75" y=".75" width="898.5" height="208.5" rx="29.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

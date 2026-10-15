@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" role="img" aria-label="JIDDERH FinOS">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dbe2f2"/><stop offset="1" stop-color="#d1cbee"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121212" stop-opacity=".18"/><stop offset=".5" stop-color="#b98e2f" stop-opacity=".18"/><stop offset="1" stop-color="#0c8598" stop-opacity=".2"/></linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#08b4cb" stop-opacity=".20"/><stop offset="1" stop-color="#08b4cb" stop-opacity="0"/></radialGradient>
+    <filter id="b" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5"/></filter>
+    <clipPath id="c"><rect width="440" height="200" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .trace{animation:trace 9s linear 2.2s infinite}
+    @keyframes trace{to{stroke-dashoffset:-100}}
+    .cell{animation:cell 2.4s ease-in-out infinite}
+    @keyframes cell{0%,100%{opacity:.3}50%{opacity:1}}
+    .slash{animation:cell 2s ease-in-out infinite}
+    .pulse{transform-box:fill-box;transform-origin:center;animation:pl 2.4s ease-in-out infinite}
+    @keyframes pl{50%{transform:scale(1.5)}}
+    .chk{animation:chk 4s ease-in-out infinite}
+    @keyframes chk{0%,25%{stroke-dashoffset:20}50%,90%{stroke-dashoffset:0}100%{stroke-dashoffset:20}}
+    .spark{transform-box:fill-box;transform-origin:center;animation:sp 3s ease-in-out infinite}
+    @keyframes sp{50%{transform:scale(1.5) rotate(45deg)}}
+    .plus{transform-box:fill-box;transform-origin:center;animation:pp 4s ease-in-out infinite}
+    @keyframes pp{40%,60%{transform:rotate(90deg)}100%{transform:rotate(90deg)}}
+    .glow{animation:gl 6s ease-in-out 2.2s infinite alternate}
+    @keyframes gl{from{opacity:.55}to{opacity:1}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <g clip-path="url(#c)">
+    <rect width="440" height="200" fill="url(#bg)"/>
+    <rect class="glow" width="440" height="200" fill="url(#glow)"/>
+  </g>
+  <rect x=".75" y=".75" width="438.5" height="198.5" rx="21.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+  <rect class="trace" x=".75" y=".75" width="438.5" height="198.5" rx="21.25" fill="none" stroke="#08b4cb" stroke-width="2.2" stroke-linecap="round" pathLength="100" stroke-dasharray="9 91" filter="url(#b)"/>
+  <path d="M30 .75 H410" stroke="#b98e2f" stroke-opacity=".3"/>
+  <rect x="24" y="22" width="52" height="52" rx="15" fill="#b6e1f5" stroke="#113645"/>
+  <g transform="translate(50 48)"><rect class="cell" x="-13" y="2" width="6" height="10" rx="1.8" fill="#08b4cb" style="animation-delay:0.0s"/><rect class="cell" x="-3" y="-5" width="6" height="17" rx="1.8" fill="#08b4cb" style="animation-delay:0.3s"/><rect class="cell" x="7" y="-13" width="6" height="25" rx="1.8" fill="#08b4cb" style="animation-delay:0.6s"/><path d="M-14 -12 L-4 -4 L2 -8 L13 -16" fill="none" stroke="#121212" stroke-opacity=".8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="90" y="53" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="23" font-weight="600" fill="#0d1424">JIDDERH FinOS</text>
+  <text x="90" y="71" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="12.5" fill="#76869c">Production work</text>
+  <circle cx="342.8" cy="26" r="4.5" fill="#08b4cb"/><text x="354.8" y="30.5" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#222f46">Fintech</text>
+  <text x="24" y="108" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#4d5c75">Fintech admin panel with TOTP 2FA</text><text x="24" y="128" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="14" fill="#4d5c75">and relation-safe user management.</text>
+  <g transform="translate(24.0 146)"><rect width="57.5" height="26" rx="13" fill="#c8d5ef" stroke="#acbcd9"/><text x="28.8" y="17.5" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#2e3d58">React</text></g><g transform="translate(89.5 146)"><rect width="93.0" height="26" rx="13" fill="#c8d5ef" stroke="#acbcd9"/><text x="46.5" y="17.5" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#2e3d58">TypeScript</text></g><g transform="translate(190.5 146)"><rect width="64.6" height="26" rx="13" fill="#c8d5ef" stroke="#acbcd9"/><text x="32.3" y="17.5" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#2e3d58">NestJS</text></g><g transform="translate(263.1 146)"><rect width="64.6" height="26" rx="13" fill="#c8d5ef" stroke="#acbcd9"/><text x="32.3" y="17.5" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#2e3d58">Prisma</text></g>
+</svg>

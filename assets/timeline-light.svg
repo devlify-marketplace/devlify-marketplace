@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="488" viewBox="0 0 900 488" role="img" aria-label="Experience timeline">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dfe5f4"/><stop offset="1" stop-color="#cfcaed"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121212" stop-opacity=".2"/><stop offset=".5" stop-color="#b98e2f" stop-opacity=".2"/><stop offset="1" stop-color="#0c8598" stop-opacity=".22"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b98e2f"/><stop offset="1" stop-color="#9d7c39"/></linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#08b4cb" stop-opacity=".1"/><stop offset=".5" stop-color="#420bc0" stop-opacity=".6"/><stop offset="1" stop-color="#b98e2f" stop-opacity=".9"/></linearGradient>
+    <radialGradient id="pulseG"><stop offset="0" stop-color="#08b4cb" stop-opacity=".9"/><stop offset="1" stop-color="#08b4cb" stop-opacity="0"/></radialGradient>
+  </defs>
+  <style>
+    .ent{animation:ent .9s cubic-bezier(.2,.7,.2,1) backwards} @keyframes ent{from{opacity:0;transform:translateX(-12px)}}
+    .nd{animation:nd 3.6s ease-in-out infinite} @keyframes nd{0%,100%{opacity:.5}20%{opacity:1}}
+    .trav{animation:trav 6s ease-in-out infinite alternate} @keyframes trav{from{transform:translateY(0)}to{transform:translateY(320px)}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <rect width="900" height="488" rx="30" fill="url(#bg)"/>
+  <text x="26" y="52" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="28" font-weight="600" fill="#0d1424">Experience</text><rect x="28" y="62" width="64" height="2.5" rx="1.2" fill="url(#gold)"/><text x="874" y="50" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#76869c">selected milestones</text>
+  <rect x="167" y="112" width="2" height="320" fill="url(#rail)"/>
+  <circle class="trav" cx="168" cy="112" r="16" fill="url(#pulseG)"/>
+  
+  <g class="ent" style="animation-delay:0.15s">
+    <text x="142" y="117" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#4d5c75">5+ years</text>
+    <circle cx="168" cy="112" r="9" fill="#ccd7ef" stroke="#08b4cb" stroke-width="2"/>
+    <circle class="nd" cx="168" cy="112" r="3.6" fill="#08b4cb" style="animation-delay:0.0s"/>
+    <text x="198" y="113" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="650" fill="#0d172b">Engineering career</text>
+    <text x="198" y="134" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#4d5c75">Product development, APIs, automation and full-stack engineering</text>
+  </g>
+  <g class="ent" style="animation-delay:0.33s">
+    <text x="142" y="181" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#4d5c75">Apr 2025</text>
+    <circle cx="168" cy="176" r="9" fill="#ccd7ef" stroke="#b98e2f" stroke-width="2"/>
+    <circle class="nd" cx="168" cy="176" r="3.6" fill="#b98e2f" style="animation-delay:0.6s"/>
+    <text x="198" y="177" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="650" fill="#0d172b">Gomnati Motors</text>
+    <text x="198" y="198" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#4d5c75">Production dealership platform with WhatsApp Business API</text>
+  </g>
+  <g class="ent" style="animation-delay:0.51s">
+    <text x="142" y="245" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#4d5c75">Jul 2026</text>
+    <circle cx="168" cy="240" r="9" fill="#ccd7ef" stroke="#08b4cb" stroke-width="2"/>
+    <circle class="nd" cx="168" cy="240" r="3.6" fill="#08b4cb" style="animation-delay:1.2s"/>
+    <text x="198" y="241" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="650" fill="#0d172b">African Transcript Platform</text>
+    <text x="198" y="262" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#4d5c75">Pan-African NX monorepo SaaS with MFA and geospatial search</text>
+  </g>
+  <g class="ent" style="animation-delay:0.69s">
+    <text x="142" y="309" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#4d5c75">Jul 2026</text>
+    <circle cx="168" cy="304" r="9" fill="#ccd7ef" stroke="#170364" stroke-width="2"/>
+    <circle class="nd" cx="168" cy="304" r="3.6" fill="#170364" style="animation-delay:1.8s"/>
+    <text x="198" y="305" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="650" fill="#0d172b">Caliphate Schools Portal</text>
+    <text x="198" y="326" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#4d5c75">FastAPI portal with roles, terms and automated reminders</text>
+  </g>
+  <g class="ent" style="animation-delay:0.87s">
+    <text x="142" y="373" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#4d5c75">Aug 2026</text>
+    <circle cx="168" cy="368" r="9" fill="#ccd7ef" stroke="#170364" stroke-width="2"/>
+    <circle class="nd" cx="168" cy="368" r="3.6" fill="#170364" style="animation-delay:2.4s"/>
+    <text x="198" y="369" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="650" fill="#0d172b">FUGUSAU Portal</text>
+    <text x="198" y="390" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#4d5c75">Student portal with full-text search and an AI fallback chain</text>
+  </g>
+  <g class="ent" style="animation-delay:1.05s">
+    <text x="142" y="437" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13.5" fill="#4d5c75">Now</text>
+    <circle cx="168" cy="432" r="9" fill="#ccd7ef" stroke="#b98e2f" stroke-width="2"/>
+    <circle class="nd" cx="168" cy="432" r="3.6" fill="#b98e2f" style="animation-delay:3.0s"/>
+    <text x="198" y="433" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="17" font-weight="650" fill="#0d172b">Founder, Devlify</text>
+    <text x="198" y="454" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13.5" fill="#4d5c75">Building secure products and developer tools from Gusau</text>
+  </g>
+  <rect x=".75" y=".75" width="898.5" height="486.5" rx="29.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

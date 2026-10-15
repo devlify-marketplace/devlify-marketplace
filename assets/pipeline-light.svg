@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="316" viewBox="0 0 900 316" role="img" aria-label="How I ship: push to GitHub deploys the frontend to Vercel and the API to Render, backed by Neon PostgreSQL">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dfe5f4"/><stop offset="1" stop-color="#cfcaed"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121212" stop-opacity=".2"/><stop offset=".5" stop-color="#b98e2f" stop-opacity=".2"/><stop offset="1" stop-color="#0c8598" stop-opacity=".22"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b98e2f"/><stop offset="1" stop-color="#9d7c39"/></linearGradient></defs>
+  <style>
+    .fw{animation:fw 1.4s linear infinite} @keyframes fw{to{stroke-dashoffset:-14}}
+    .dw{animation:fw 1.8s linear infinite}
+    .gh{animation:gh 3.2s ease-in-out infinite} @keyframes gh{50%{opacity:.45}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <rect width="900" height="316" rx="30" fill="url(#bg)"/>
+  <text x="26" y="52" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="28" font-weight="600" fill="#0d1424">How I ship</text><rect x="28" y="62" width="64" height="2.5" rx="1.2" fill="url(#gold)"/><text x="874" y="50" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#76869c">push / deploy / serve</text>
+  <path d="M450.0 142 C450.0 176 345 160 345 198" fill="none" stroke="#a1b2d2" stroke-width="2" stroke-dasharray="4 5"/><path class="dw" d="M450.0 142 C450.0 176 345 160 345 198" fill="none" stroke="#b98e2f" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="2 16" style="animation-delay:-0.0s"/><path d="M450.0 142 C450.0 176 551 160 551 198" fill="none" stroke="#a1b2d2" stroke-width="2" stroke-dasharray="4 5"/><path class="dw" d="M450.0 142 C450.0 176 551 160 551 198" fill="none" stroke="#b98e2f" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="2 16" style="animation-delay:-0.7s"/><line x1="218" y1="243.0" x2="266" y2="243.0" stroke="#a1b2d2" stroke-width="2"/><line class="fw" x1="218" y1="243.0" x2="266" y2="243.0" stroke="#08b4cb" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 12" style="animation-delay:-0.0s"/><text x="242.0" y="233.0" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#606f88">HTTPS</text><line x1="424" y1="243.0" x2="472" y2="243.0" stroke="#a1b2d2" stroke-width="2"/><line class="fw" x1="424" y1="243.0" x2="472" y2="243.0" stroke="#08b4cb" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 12" style="animation-delay:-0.5s"/><text x="448.0" y="233.0" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#606f88">REST</text><line x1="630" y1="243.0" x2="678" y2="243.0" stroke="#a1b2d2" stroke-width="2"/><line class="fw" x1="630" y1="243.0" x2="678" y2="243.0" stroke="#08b4cb" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="2 12" style="animation-delay:-1.0s"/><text x="654.0" y="233.0" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#606f88">SQL</text>
+  <g transform="translate(64 200)">
+    <rect width="150" height="86" rx="18" fill="#ccd7ef" stroke="#dac89c" stroke-width="1.5"/>
+    <rect x="16" y="16" width="10" height="10" rx="3" fill="#b98e2f"/>
+    <text x="36" y="26" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="650" fill="#0d172b">Users</text>
+    <text x="16" y="52" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75">Browser, mobile</text>
+    <text x="16" y="70" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75"></text>
+  </g>
+  <g transform="translate(270 200)">
+    <rect width="150" height="86" rx="18" fill="#ccd7ef" stroke="#113645" stroke-width="1.5"/>
+    <rect x="16" y="16" width="10" height="10" rx="3" fill="#08b4cb"/>
+    <text x="36" y="26" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="650" fill="#0d172b">Vercel</text>
+    <text x="16" y="52" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75">React, Next.js</text>
+    <text x="16" y="70" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75">Vite frontends</text>
+  </g>
+  <g transform="translate(476 200)">
+    <rect width="150" height="86" rx="18" fill="#ccd7ef" stroke="#816ece" stroke-width="1.5"/>
+    <rect x="16" y="16" width="10" height="10" rx="3" fill="#170364"/>
+    <text x="36" y="26" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="650" fill="#0d172b">Render</text>
+    <text x="16" y="52" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75">Django, FastAPI,</text>
+    <text x="16" y="70" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75">NestJS APIs</text>
+  </g>
+  <g transform="translate(682 200)">
+    <rect width="150" height="86" rx="18" fill="#ccd7ef" stroke="#113645" stroke-width="1.5"/>
+    <rect x="16" y="16" width="10" height="10" rx="3" fill="#08b4cb"/>
+    <text x="36" y="26" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="650" fill="#0d172b">Neon</text>
+    <text x="16" y="52" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75">PostgreSQL</text>
+    <text x="16" y="70" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75">Prisma, Alembic</text>
+  </g>
+  <g transform="translate(358 86)">
+    <rect width="184" height="56" rx="18" fill="#ccd7ef" stroke="#d6caad" stroke-width="1.5"/>
+    <circle class="gh" cx="26" cy="28.0" r="5" fill="#b98e2f"/>
+    <text x="42" y="25.0" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="16" font-weight="650" fill="#0d172b">GitHub</text>
+    <text x="42" y="43.0" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#4d5c75">push to main</text>
+  </g>
+  <text x="558" y="118.0" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" fill="#606f88">git push deploys both</text>
+  <rect x=".75" y=".75" width="898.5" height="314.5" rx="29.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

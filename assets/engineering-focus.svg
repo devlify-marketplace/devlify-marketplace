@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="306" viewBox="0 0 900 306" role="img" aria-labelledby="t d">
   <title id="t">Engineering focus</title>
-  <desc id="d">Four animated themes: secure applications, full-stack systems, AI and developer tools, reliable delivery.</desc>
+  <desc id="d">Four animated themes: full-stack systems, applied AI/ML, developer tools, reliable delivery.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#05080f"/><stop offset="1" stop-color="#110d27"/></linearGradient>
     <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".2"/><stop offset=".5" stop-color="#e6cf9d" stop-opacity=".2"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".22"/></linearGradient>
@@ -30,7 +30,7 @@
   <rect width="900" height="306" rx="30" fill="url(#bg)"/>
   <text x="26" y="52" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="28" font-weight="600" fill="#f4f6fb">Engineering focus</text>
   <rect x="28" y="62" width="64" height="2.5" rx="1.2" fill="url(#gold)"/>
-  <text x="874" y="50" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#64748b">build / secure / ship</text>
+  <text x="874" y="50" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#64748b">build / learn / ship</text>
 
   <g transform="translate(24 86)">
     <rect width="205" height="192" rx="20" fill="#0b1324"/>
@@ -54,8 +54,8 @@
           <path d="M0 -14 L12 -9 V1 C12 9 6 14 0 17 C-6 14 -12 9 -12 1 V-9 Z" fill="#67e8f9" fill-opacity=".08" stroke="#67e8f9" stroke-width="2" stroke-linejoin="round"/>
           <g clip-path="url(#sh)"><rect class="scan" x="-14" y="-16" width="28" height="9" fill="#67e8f9" fill-opacity=".35"/><rect class="scan" x="-14" y="-8" width="28" height="1.6" fill="#a5f3fc"/></g>
           <path d="M-5 2 L-1 6 L6 -3" fill="none" stroke="#a5f3fc" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
-    <text x="20" y="102" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="650" fill="#eef2fa">Secure Applications</text>
-    <text x="20" y="130" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#93a1b8">Secure software</text><text x="20" y="148" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#93a1b8">product engineering and</text><text x="20" y="166" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#93a1b8">safer workflows</text>
+    <text x="20" y="102" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="650" fill="#eef2fa">Full-Stack Applications</text>
+    <text x="20" y="130" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#93a1b8">Practical product</text><text x="20" y="148" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#93a1b8">engineering for useful</text><text x="20" y="166" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#93a1b8">dependable applications</text>
   </g>
   <g transform="translate(239 86)">
     <rect x=".75" y=".75" width="203.5" height="190.5" rx="19.5" fill="none" stroke="#43308f" stroke-width="1.5"/>

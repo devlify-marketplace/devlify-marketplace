@@ -1,104 +1,117 @@
 <div align="center">
-
-<img src="./assets/profile-banner.svg" width="100%" alt="Sadiq Abdullahi, Software Developer and full-stack engineer" />
-
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg">
+  <img src="./assets/profile-banner.svg" width="100%" alt="Sadiq Abdullahi, Software Developer and full-stack engineer" />
+</picture>
 <br />
-
 <a href="https://readme-typing-svg.demolab.com">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=E6CF9D&center=true&vCenter=true&width=760&lines=Software+Developer;Full-Stack+Engineer;Founder+%40+Devlify;Building+Secure+Digital+Products" alt="Animated roles: Software Developer, Full-Stack Engineer, Founder at Devlify" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=1200&color=E6CF9D&center=true&vCenter=true&width=760&lines=Software+Developer;Full-Stack+Engineer;Applied+AI%2FML;Founder+%40+Devlify" alt="Animated roles: Software Developer, Full-Stack Engineer, Applied AI and ML, Founder at Devlify" />
 </a>
-
 <br /><br />
-
 <a href="https://github.com/devlify-marketplace"><img src="https://img.shields.io/badge/GitHub-devlify--marketplace-0b1220?style=for-the-badge&logo=github&logoColor=white&labelColor=0b1220" alt="GitHub" /></a>
 <a href="https://devlify.com.ng"><img src="https://img.shields.io/badge/DEVLIFY-Visit%20website-0b1220?style=for-the-badge&logo=googlechrome&logoColor=67e8f9&labelColor=0b1220" alt="Devlify website" /></a>
 <a href="https://www.linkedin.com/in/sadiq-abdullahi-970840349"><img src="https://img.shields.io/badge/LinkedIn-Connect-0b1220?style=for-the-badge&logo=linkedin&logoColor=60a5fa&labelColor=0b1220" alt="LinkedIn" /></a>
 <a href="mailto:devsadeeqlabs@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-0b1220?style=for-the-badge&logo=gmail&logoColor=f87171&labelColor=0b1220" alt="Email" /></a>
-
 <br /><br />
-
-<img src="./assets/metrics.svg" width="100%" alt="5+ years in engineering, 1,000+ projects, based in Gusau, Nigeria" />
-
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/metrics-light.svg"><img src="./assets/metrics.svg" width="100%" alt="Software development focus: full-stack products, applied AI and machine learning, developer tools, Gusau Nigeria" /></picture>
 <br /><br />
-
-<img src="./assets/terminal.svg" width="100%" alt="Animated terminal: whoami, mission, focus areas" />
-
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/terminal-light.svg"><img src="./assets/terminal.svg" width="100%" alt="Animated terminal: developer profile, mission and focus areas" /></picture>
 <br />
-
-<img src="./assets/divider.svg" width="100%" alt="" />
-
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img src="./assets/divider.svg" width="100%" alt="" /></picture>
 </div>
 
 ## About
+I’m **Sadiq Abdullahi**, a Software Developer and founder of **[Devlify](https://devlify.com.ng)**. I build web and mobile applications, business platforms, practical AI/ML features, and developer tools—turning real-world problems into dependable digital products.
 
-I’m **Sadiq Abdullahi**, a Software Developer and the founder of **[Devlify](https://devlify.com.ng)**. I build secure web and mobile applications, business platforms, AI/ML solutions, and developer tools—turning practical problems into dependable digital products.
-
-My work spans product development, application security, APIs, databases, automation, and deployment. I’m especially interested in software that is useful in the real world, safe to operate, and maintainable as it grows.
+My work spans full-stack product development, APIs, databases, automation, and deployment. I care about software that is useful, maintainable, and thoughtfully delivered.
 
 ## Engineering Focus
-
-I focus on dependable full-stack products, secure applications, AI and developer tools, and reliable delivery.
+I focus on dependable full-stack products, applied AI/ML, developer tools, and reliable delivery.
 
 <div align="center">
-  <img src="./assets/engineering-focus.svg" width="100%" alt="Engineering focus: secure applications, full-stack systems, AI and developer tools, reliable delivery" />
+  <picture><source media="(prefers-color-scheme: light)" srcset="./assets/engineering-focus-light.svg"><img src="./assets/engineering-focus.svg" width="100%" alt="Engineering focus: full-stack systems, applied AI and ML, developer tools, reliable delivery" /></picture>
 </div>
-
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>
+<div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img src="./assets/divider.svg" width="100%" alt="" /></picture></div>
 
 ## Selected Projects
-
+### Production systems
 <div align="center">
-
-<a href="https://github.com/devlify-marketplace/devlify-tensor"><img src="./assets/project-tensor.svg" width="49%" alt="Devlify Tensor: GPU kernel and matrix-compute framework in C++" /></a>
-<a href="https://github.com/devlify-marketplace/devlify-decompiler"><img src="./assets/project-decompiler.svg" width="49%" alt="Devlify Decompiler: Java binary reverse-engineering suite" /></a>
-<a href="https://github.com/devlify-marketplace/devlify-skills"><img src="./assets/project-skills.svg" width="49%" alt="Devlify Skills: AI-agent skills and plugin library in Python" /></a>
-<a href="https://github.com/devlify-marketplace/AttendanceAppWithEmail"><img src="./assets/project-attendance.svg" width="49%" alt="AttendanceAppWithEmail: attendance application" /></a>
-<a href="https://github.com/devlify-marketplace/Elite-event"><img src="./assets/project-elite-event.svg" width="49%" alt="Elite-event: JavaScript event-platform project" /></a>
-<a href="https://devsadeeq-portfolio.vercel.app/projects"><img src="./assets/project-more.svg" width="49%" alt="More case studies in the portfolio" /></a>
-
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-atp-light.svg"><img src="./assets/project-atp.svg" width="49%" alt="African Transcript Platform: pan-African NX monorepo SaaS" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-nexus-finos-light.svg"><img src="./assets/project-nexus-finos.svg" width="49%" alt="NEXUS FinOS: fintech platform" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-jidderh-finos-light.svg"><img src="./assets/project-jidderh-finos.svg" width="49%" alt="JIDDERH FinOS: fintech admin panel" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-murabaha-pos-light.svg"><img src="./assets/project-murabaha-pos.svg" width="49%" alt="MurabahaPOS: fuel POS with Django REST and Android" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-fugusau-light.svg"><img src="./assets/project-fugusau.svg" width="49%" alt="FUGUSAU Portal: student portal" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-caliphate-light.svg"><img src="./assets/project-caliphate.svg" width="49%" alt="Caliphate Schools Portal: school management portal" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-gomnati-light.svg"><img src="./assets/project-gomnati.svg" width="49%" alt="Gomnati Motors: multilingual dealership platform" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-nexuswhitelist-light.svg"><img src="./assets/project-nexuswhitelist.svg" width="49%" alt="NexusWhitelist: Merkle-proof NFT whitelist checker" /></picture>
 </div>
 
-<p align="center">The portfolio also spans PHP, MySQL, JavaScript, Bootstrap, Next.js, React, Python, Flask, machine learning, and Chart.js. <a href="https://devsadeeq-portfolio.vercel.app/projects">Explore all projects</a></p>
+### Applied machine learning
+<div align="center">
+<a href="https://github.com/devlify-marketplace/1-cassava-and-maize-leaf-disease-classification-using-transfer-learning"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-leaf-disease-light.svg"><img src="./assets/project-leaf-disease.svg" width="49%" alt="Cassava and Maize Leaf Disease Classification: transfer-learning image classifier with a MobileNetV2 model and FastAPI demo" /></picture></a>
+<a href="https://github.com/devlify-marketplace/4-sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-naija-sentiment-light.svg"><img src="./assets/project-naija-sentiment.svg" width="49%" alt="Naija Sentiment Analysis: Hausa, Yoruba and Igbo sentiment classification using Afro-XLM-RoBERTa" /></picture></a>
+</div>
+<p align="center">Explore more work in <a href="https://devsadeeq-portfolio.vercel.app/projects">the project portfolio</a>.</p>
 
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>
+### Devlify open source
+<div align="center">
+<a href="https://github.com/devlify-marketplace/devlify-tensor"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-tensor-light.svg"><img src="./assets/project-tensor.svg" width="49%" alt="Devlify Tensor: GPU kernel and matrix-compute framework in C++" /></picture></a>
+<a href="https://github.com/devlify-marketplace/devlify-decompiler"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-decompiler-light.svg"><img src="./assets/project-decompiler.svg" width="49%" alt="Devlify Decompiler: Java binary reverse-engineering suite" /></picture></a>
+<a href="https://github.com/devlify-marketplace/devlify-skills"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-skills-light.svg"><img src="./assets/project-skills.svg" width="49%" alt="Devlify Skills: AI-agent skills and plugin library in Python" /></picture></a>
+<a href="https://devsadeeq-portfolio.vercel.app/projects"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-more-light.svg"><img src="./assets/project-more.svg" width="49%" alt="More case studies in the portfolio" /></picture></a>
+</div>
+
+<div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img src="./assets/divider.svg" width="100%" alt="" /></picture></div>
+<div align="center">
+  <picture><source media="(prefers-color-scheme: light)" srcset="./assets/pipeline-light.svg"><img src="./assets/pipeline.svg" width="100%" alt="Software delivery flow: GitHub, Vercel frontends, Render APIs and Neon PostgreSQL" /></picture>
+</div>
+<div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img src="./assets/divider.svg" width="100%" alt="" /></picture></div>
 
 ## Technology Stack
-
 <div align="center">
-  <img src="./assets/tech-stack.svg" width="100%" alt="JavaScript, TypeScript, PHP, Python, Java, C++, React, Next.js, Tailwind CSS, Bootstrap, Node.js, Express.js, Django, Flask, REST APIs, JWT authentication, PostgreSQL, MySQL, MongoDB, SQLite, Git, GitHub, Docker, Linux, Nginx, Figma" />
+  <picture><source media="(prefers-color-scheme: light)" srcset="./assets/tech-stack-light.svg"><img src="./assets/tech-stack.svg" width="100%" alt="Languages, frameworks, databases, and tools including TypeScript, JavaScript, Python, Django, FastAPI, NestJS, React, Next.js, PostgreSQL, Docker, Render, and Vercel" /></picture>
 </div>
-
-<div align="center"><img src="./assets/divider.svg" width="100%" alt="" /></div>
+<div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img src="./assets/divider.svg" width="100%" alt="" /></picture></div>
 
 ## Engineering Principles
-
-- **Security is foundational:** design trusted boundaries and secure application flows from the start.
 - **Build for real use:** connect interfaces, APIs, data, and operational needs into complete products.
 - **Keep systems understandable:** favor clear structure, maintainable code, and practical documentation.
+- **Use ML responsibly:** make model scope and limitations clear, and keep evaluation grounded in data.
 - **Deliver with care:** test important paths and verify changes before release.
 
 ## GitHub Activity
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/devlify-marketplace/devlify-marketplace/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/devlify-marketplace/devlify-marketplace/output/github-snake.svg" />
+  <img alt="GitHub contribution graph animation" src="https://raw.githubusercontent.com/devlify-marketplace/devlify-marketplace/output/github-snake-dark.svg" width="100%" />
+</picture>
+<br /><br />
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/stats-light.svg"><img src="./assets/stats.svg" width="49%" alt="GitHub activity statistics" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/langs-light.svg"><img src="./assets/langs.svg" width="49%" alt="Top languages" /></picture>
+</div>
+
+### Recently active
+<!-- RECENT:START -->
+- [**8-fake-news-detection-on-nigerian-social-media-using-bidirectional-lstm**](https://github.com/devlify-marketplace/8-fake-news-detection-on-nigerian-social-media-using-bidirectional-lstm) `Python`: 8 - Fake News Detection on Nigerian Social Media Using Bidirectional LSTM
+- [**7-tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet**](https://github.com/devlify-marketplace/7-tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet) `Python`: 7 - Tuberculosis Detection from Chest X-Rays Using DenseNet and ResNet
+- [**6-malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network**](https://github.com/devlify-marketplace/6-malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network) `Python`: 6 - Malaria Parasite Detection from Blood Smear Images Using a Convolutional Neural Network
+- [**5-hausa-to-english-neural-machine-translation-using-a-sequence-to-sequence-transformer**](https://github.com/devlify-marketplace/5-hausa-to-english-neural-machine-translation-using-a-sequence-to-sequence-transformer) `Python`: 5 - Hausa-to-English Neural Machine Translation Using a Sequence-to-Sequence Transformer
+- [**4-sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model**](https://github.com/devlify-marketplace/4-sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model) `Python`: 4 - Sentiment Analysis for Hausa, Yoruba and Igbo Using a Fine-Tuned BERT Model
+<!-- RECENT:END -->
+<div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img src="./assets/divider.svg" width="100%" alt="" /></picture></div>
 
 <div align="center">
-
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=devlify-marketplace&show_icons=true&rank_icon=github&bg_color=070b14&border_color=1f2a3d&border_radius=18&title_color=e6cf9d&text_color=cbd5e1&icon_color=22d3ee&ring_color=22d3ee" alt="GitHub profile statistics" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devlify-marketplace&layout=compact&langs_count=8&bg_color=070b14&border_color=1f2a3d&border_radius=18&title_color=e6cf9d&text_color=cbd5e1" alt="Top languages on GitHub" />
-
-<br />
-
-<img src="https://streak-stats.demolab.com?user=devlify-marketplace&background=070B14&border=1F2A3D&stroke=1F2A3D&ring=22D3EE&fire=E6CF9D&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B&borderRadius=18" alt="GitHub contribution streak" />
-
+  <a href="https://devlify.com.ng"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/contact-light.svg"><img src="./assets/contact.svg" width="100%" alt="Need a software product built? Contact Devlify." /></picture></a>
 </div>
 
 ## Connect
-
 - **Website:** [devlify.com.ng](https://devlify.com.ng)
 - **LinkedIn:** [Sadiq Abdullahi](https://www.linkedin.com/in/sadiq-abdullahi-970840349)
 - **Email:** [devsadeeqlabs@gmail.com](mailto:devsadeeqlabs@gmail.com)
 - **ORCID:** [0009-0001-8535-0768](https://orcid.org/0009-0001-8535-0768)
 
 <br />
-
 <div align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Building secure systems. Shipping useful products. Improving with every release." />
+  <picture><source media="(prefers-color-scheme: light)" srcset="./assets/footer-light.svg"><img src="./assets/footer.svg" width="100%" alt="Building useful software. Shipping thoughtfully. Improving with every release." /></picture>
 </div>

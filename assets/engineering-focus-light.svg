@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="306" viewBox="0 0 900 306" role="img" aria-labelledby="t d">
+  <title id="t">Engineering focus</title>
+  <desc id="d">Four animated themes: full-stack systems, applied AI/ML, developer tools, reliable delivery.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dfe5f4"/><stop offset="1" stop-color="#cfcaed"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#121212" stop-opacity=".2"/><stop offset=".5" stop-color="#b98e2f" stop-opacity=".2"/><stop offset="1" stop-color="#0c8598" stop-opacity=".22"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#b98e2f"/><stop offset="1" stop-color="#9d7c39"/></linearGradient>
+    <radialGradient id="spot"><stop offset="0" stop-color="#0c8598" stop-opacity=".30"/><stop offset="1" stop-color="#0c8598" stop-opacity="0"/></radialGradient>
+    <clipPath id="cards"><rect x="24" y="86" width="205" height="192" rx="20"/><rect x="239" y="86" width="205" height="192" rx="20"/><rect x="454" y="86" width="205" height="192" rx="20"/><rect x="669" y="86" width="205" height="192" rx="20"/></clipPath>
+  </defs>
+  <style>
+    .spot{animation:spot 9s ease-in-out infinite alternate}
+    @keyframes spot{from{transform:translateX(0)}to{transform:translateX(615px)}}
+    .scan{animation:scan 2.8s ease-in-out infinite}
+    @keyframes scan{0%{transform:translateY(0)}50%{transform:translateY(31px)}100%{transform:translateY(0)}}
+    .lay1{animation:lay 3.4s ease-in-out infinite}
+    .lay2{animation:lay 3.4s ease-in-out .25s infinite}
+    @keyframes lay{50%{transform:translateY(-3.5px)}}
+    .flow{animation:flow 1.6s linear infinite}
+    .f2{animation-delay:-.8s}
+    @keyframes flow{to{stroke-dashoffset:-31}}
+    .core{transform-box:fill-box;transform-origin:center;animation:core 2.4s ease-in-out infinite}
+    @keyframes core{50%{transform:scale(1.35)}}
+    .prog{animation:prog 4.6s ease-in-out infinite}
+    @keyframes prog{0%{stroke-dashoffset:81.7}55%,92%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+    .tick{animation:tick 4.6s ease-in-out infinite}
+    @keyframes tick{0%,45%{stroke-dashoffset:20}62%,92%{stroke-dashoffset:0;opacity:1}100%{stroke-dashoffset:0;opacity:0}}
+    @media (prefers-reduced-motion: reduce){*{animation:none!important}}
+  </style>
+  <rect width="900" height="306" rx="30" fill="url(#bg)"/>
+  <text x="26" y="52" font-family="'Iowan Old Style','Palatino Linotype',Palatino,'Book Antiqua',Georgia,serif" font-size="28" font-weight="600" fill="#0d1424">Engineering focus</text>
+  <rect x="28" y="62" width="64" height="2.5" rx="1.2" fill="url(#gold)"/>
+  <text x="874" y="50" text-anchor="end" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#76869c">build / learn / ship</text>
+  
+  <g transform="translate(24 86)">
+    <rect width="205" height="192" rx="20" fill="#ccd7ef"/>
+  </g>
+  <g transform="translate(239 86)">
+    <rect width="205" height="192" rx="20" fill="#ccd7ef"/>
+  </g>
+  <g transform="translate(454 86)">
+    <rect width="205" height="192" rx="20" fill="#ccd7ef"/>
+  </g>
+  <g transform="translate(669 86)">
+    <rect width="205" height="192" rx="20" fill="#ccd7ef"/>
+  </g>
+  <g clip-path="url(#cards)"><ellipse class="spot" cx="126.5" cy="182.0" rx="150" ry="120" fill="url(#spot)"/></g>
+  
+  <g transform="translate(24 86)">
+    <rect x=".75" y=".75" width="203.5" height="190.5" rx="19.5" fill="none" stroke="#113645" stroke-width="1.5"/>
+    <path d="M24 .75 H181" stroke="#b98e2f" stroke-opacity=".35"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="#b6e1f5" stroke="#113645"/>
+    <g transform="translate(42 42)"><defs><clipPath id="sh"><path d="M0 -14 L12 -9 V1 C12 9 6 14 0 17 C-6 14 -12 9 -12 1 V-9 Z"/></clipPath></defs>
+          <path d="M0 -14 L12 -9 V1 C12 9 6 14 0 17 C-6 14 -12 9 -12 1 V-9 Z" fill="#08b4cb" fill-opacity=".08" stroke="#08b4cb" stroke-width="2" stroke-linejoin="round"/>
+          <g clip-path="url(#sh)"><rect class="scan" x="-14" y="-16" width="28" height="9" fill="#08b4cb" fill-opacity=".35"/><rect class="scan" x="-14" y="-8" width="28" height="1.6" fill="#046672"/></g>
+          <path d="M-5 2 L-1 6 L6 -3" fill="none" stroke="#046672" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="20" y="102" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="650" fill="#0d172b">Full-Stack Applications</text>
+    <text x="20" y="130" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">Practical product</text><text x="20" y="148" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">engineering for useful</text><text x="20" y="166" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">dependable applications</text>
+  </g>
+  <g transform="translate(239 86)">
+    <rect x=".75" y=".75" width="203.5" height="190.5" rx="19.5" fill="none" stroke="#816ece" stroke-width="1.5"/>
+    <path d="M24 .75 H181" stroke="#b98e2f" stroke-opacity=".35"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="#b6b2e5" stroke="#816ece"/>
+    <g transform="translate(42 42)"><g stroke="#170364" stroke-width="1.8" stroke-linejoin="round">
+          <path d="M0 4 L14 11 L0 18 L-14 11 Z" fill="#170364" fill-opacity=".10" opacity=".6"/>
+          <path class="lay2" d="M0 -3 L14 4 L0 11 L-14 4 Z" fill="#170364" fill-opacity=".16" opacity=".85"/>
+          <path class="lay1" d="M0 -10 L14 -3 L0 4 L-14 -3 Z" fill="#170364" fill-opacity=".28"/></g></g>
+    <text x="20" y="102" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="650" fill="#0d172b">Full-Stack Systems</text>
+    <text x="20" y="130" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">Interfaces, APIs, data,</text><text x="20" y="148" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">and complete business</text><text x="20" y="166" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">products</text>
+  </g>
+  <g transform="translate(454 86)">
+    <rect x=".75" y=".75" width="203.5" height="190.5" rx="19.5" fill="none" stroke="#113645" stroke-width="1.5"/>
+    <path d="M24 .75 H181" stroke="#b98e2f" stroke-opacity=".35"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="#b6e1f5" stroke="#113645"/>
+    <g transform="translate(42 42)"><g stroke="#08b4cb" stroke-width="1.5" stroke-opacity=".7" fill="none">
+          <path d="M-13 -9 L0 0 M-13 9 L0 0 M0 0 L13 -9 M0 0 L13 9"/></g>
+          <g stroke="#00373f" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="1.5 14" fill="none"><path class="flow" d="M-13 -9 L0 0 L13 9"/><path class="flow f2" d="M-13 9 L0 0 L13 -9"/></g>
+          <g fill="#d2e0f4" stroke="#08b4cb" stroke-width="1.8"><circle cx="-13" cy="-9" r="3.4"/><circle cx="-13" cy="9" r="3.4"/><circle cx="13" cy="-9" r="3.4"/><circle cx="13" cy="9" r="3.4"/></g>
+          <circle class="core" r="5" fill="#08b4cb"/></g>
+    <text x="20" y="102" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="650" fill="#0d172b">AI &amp; Dev Tools</text>
+    <text x="20" y="130" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">Useful automation, ML</text><text x="20" y="148" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">and software for</text><text x="20" y="166" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">builders</text>
+  </g>
+  <g transform="translate(669 86)">
+    <rect x=".75" y=".75" width="203.5" height="190.5" rx="19.5" fill="none" stroke="#816ece" stroke-width="1.5"/>
+    <path d="M24 .75 H181" stroke="#b98e2f" stroke-opacity=".35"/>
+    <rect x="18" y="18" width="48" height="48" rx="14" fill="#b6b2e5" stroke="#816ece"/>
+    <g transform="translate(42 42)"><circle r="13" fill="none" stroke="#170364" stroke-opacity=".22" stroke-width="2.4"/>
+          <circle class="prog" r="13" fill="none" stroke="#170364" stroke-width="2.6" stroke-linecap="round" stroke-dasharray="81.7" transform="rotate(-90)"/>
+          <path class="tick" d="M-5 0.5 L-1 4.5 L6 -3.5" fill="none" stroke="#0c0236" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="20"/></g>
+    <text x="20" y="102" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="15.5" font-weight="650" fill="#0d172b">Reliable Delivery</text>
+    <text x="20" y="130" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">Maintainable code,</text><text x="20" y="148" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">verification and</text><text x="20" y="166" font-family="'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="13" fill="#4d5c75">thoughtful releases</text>
+  </g>
+  <rect x=".75" y=".75" width="898.5" height="304.5" rx="29.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+</svg>

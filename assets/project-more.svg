@@ -7,7 +7,7 @@
     <clipPath id="c"><rect width="440" height="200" rx="22"/></clipPath>
   </defs>
   <style>
-    .trace{animation:trace 9s linear 7.5s infinite}
+    .trace{animation:trace 9s linear 5s infinite}
     @keyframes trace{to{stroke-dashoffset:-100}}
     .cell{animation:cell 2.4s ease-in-out infinite}
     @keyframes cell{0%,100%{opacity:.3}50%{opacity:1}}
@@ -20,7 +20,7 @@
     @keyframes sp{50%{transform:scale(1.5) rotate(45deg)}}
     .plus{transform-box:fill-box;transform-origin:center;animation:pp 4s ease-in-out infinite}
     @keyframes pp{40%,60%{transform:rotate(90deg)}100%{transform:rotate(90deg)}}
-    .glow{animation:gl 6s ease-in-out 7.5s infinite alternate}
+    .glow{animation:gl 6s ease-in-out 5s infinite alternate}
     @keyframes gl{from{opacity:.55}to{opacity:1}}
     @media (prefers-reduced-motion: reduce){*{animation:none!important}}
   </style>

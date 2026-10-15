@@ -34,24 +34,24 @@
     <rect width="900" height="46" fill="url(#bar)"/>
     <line x1="0" y1="46" x2="900" y2="46" stroke="#1f2a3d"/>
     <circle cx="30" cy="23" r="6" fill="#ff5f57" opacity=".85"/><circle cx="52" cy="23" r="6" fill="#febc2e" opacity=".85"/><circle cx="74" cy="23" r="6" fill="#28c840" opacity=".85"/>
-    <text x="450.0" y="28" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6b7a92">sadiq@devlify: ~/secure-products</text>
+    <text x="450.0" y="28" text-anchor="middle" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6b7a92">sadiq@devlify: ~/software-products</text>
     <g class="fade">
       <text x="40" y="100" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">$ </tspan><tspan fill="#67e8f9">whoami</tspan></text>
       <g><rect class="cov" x="38" y="81" width="135" height="28" fill="#080c15" style="animation:t0 18.4s steps(8) infinite"/>
       <rect class="cur" x="38" y="84" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t0 18.4s steps(8) infinite,v0 18.4s linear infinite"/></g>
-      <text x="40" y="126" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#f4f6fb">sadiq-abdullahi</tspan><tspan fill="#aab6c8">, software developer and full-stack engineer</tspan></text>
+      <text x="40" y="126" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#f4f6fb">sadiq-abdullahi</tspan><tspan fill="#aab6c8">, software developer and product builder</tspan></text>
       <g><rect class="cov" x="38" y="107" width="699" height="28" fill="#080c15" style="animation:t1 18.4s steps(68) infinite"/>
       <rect class="cur" x="38" y="110" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t1 18.4s steps(68) infinite,v1 18.4s linear infinite"/></g>
       <text x="40" y="156" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">$ </tspan><tspan fill="#67e8f9">cat </tspan><tspan fill="#f4f6fb">mission.txt</tspan></text>
       <g><rect class="cov" x="38" y="137" width="220" height="28" fill="#080c15" style="animation:t2 18.4s steps(17) infinite"/>
       <rect class="cur" x="38" y="140" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t2 18.4s steps(17) infinite,v2 18.4s linear infinite"/></g>
-      <text x="40" y="182" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#aab6c8">Turn practical problems into dependable, secure digital products.</tspan></text>
+      <text x="40" y="182" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#aab6c8">Turn practical problems into dependable, useful software.</tspan></text>
       <g><rect class="cov" x="38" y="163" width="671" height="28" fill="#080c15" style="animation:t3 18.4s steps(65) infinite"/>
       <rect class="cur" x="38" y="166" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t3 18.4s steps(65) infinite,v3 18.4s linear infinite"/></g>
       <text x="40" y="212" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">$ </tspan><tspan fill="#67e8f9">ls </tspan><tspan fill="#f4f6fb">./focus</tspan></text>
       <g><rect class="cov" x="38" y="193" width="173" height="28" fill="#080c15" style="animation:t4 18.4s steps(12) infinite"/>
       <rect class="cur" x="38" y="196" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t4 18.4s steps(12) infinite,v4 18.4s linear infinite"/></g>
-      <text x="40" y="238" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#67e8f9">secure-apps/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#c4b5fd">full-stack-systems/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#67e8f9">ai-and-dev-tools/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#c4b5fd">reliable-delivery/</tspan></text>
+      <text x="40" y="238" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#67e8f9">product-systems/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#c4b5fd">full-stack-systems/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#67e8f9">ai-and-dev-tools/</tspan><tspan fill="#f4f6fb">  </tspan><tspan fill="#c4b5fd">reliable-delivery/</tspan></text>
       <g><rect class="cov" x="38" y="219" width="737" height="28" fill="#080c15" style="animation:t5 18.4s steps(72) infinite"/>
       <rect class="cur" x="38" y="222" width="8" height="20" rx="1.5" fill="#67e8f9" opacity="0" style="animation:t5 18.4s steps(72) infinite,v5 18.4s linear infinite"/></g>
       <text x="40" y="268" xml:space="preserve" font-family="'JetBrains Mono','SF Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15.5"><tspan fill="#e6cf9d">$ </tspan><tspan fill="#67e8f9">git </tspan><tspan fill="#f4f6fb">log -1 --oneline</tspan></text>
