@@ -7,6 +7,8 @@ Env: GITHUB_TOKEN (recommended), PROFILE_USER, ASSETS_DIR, README
 import colorsys, json, os, re, sys, urllib.request, urllib.error
 
 USER = os.environ.get("PROFILE_USER", "devlify-marketplace")
+# Owner-reported total shown in the profile activity card; distinct from GitHub's public repo count.
+PROJECT_COUNT = 1_091
 TOKEN = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or ""
 ASSETS = os.environ.get("ASSETS_DIR", "assets")
 README = os.environ.get("README", "README.md")
@@ -110,7 +112,7 @@ def shell(W, H, title, sub, body, label):
 
 
 def stats_svg(user, stars, forks, contrib):
-    items = [("Repositories", user["public_repos"]), ("Stars earned", stars), ("Forks", forks), ("Followers", user["followers"])]
+    items = [("Projects", PROJECT_COUNT), ("Stars earned", stars), ("Forks", forks), ("Followers", user["followers"])]
     if contrib:
         items += [("Commits, past year", contrib["commits"]), ("Pull requests", contrib["prs"])]
     W, cols = 440, 3
