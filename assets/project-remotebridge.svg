@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="200" viewBox="0 0 440 200" role="img" aria-label="RemoteBridge cross-platform remote desktop software">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#080f1c"/><stop offset="1" stop-color="#10142a"/></linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".16"/><stop offset=".5" stop-color="#60a5fa" stop-opacity=".21"/><stop offset="1" stop-color="#22d3ee" stop-opacity=".2"/></linearGradient>
+    <radialGradient id="glow" cx="1" cy="0" r="1"><stop offset="0" stop-color="#60a5fa" stop-opacity=".2"/><stop offset="1" stop-color="#60a5fa" stop-opacity="0"/></radialGradient>
+    <clipPath id="clip"><rect width="440" height="200" rx="22"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)"><rect width="440" height="200" fill="url(#bg)"/><rect width="440" height="200" fill="url(#glow)"/></g>
+  <rect x=".75" y=".75" width="438.5" height="198.5" rx="21.25" fill="none" stroke="url(#edge)" stroke-width="1.5"/>
+  <path d="M30 .75H410" stroke="#60a5fa" stroke-opacity=".28"/>
+  <rect x="24" y="22" width="52" height="52" rx="15" fill="#14213b" stroke="#36558a"/>
+  <g transform="translate(50 48)" fill="none" stroke="#93c5fd" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-17" y="-12" width="22" height="16" rx="2.5"/><path d="M-10 9h8m-4-5v5"/>
+    <rect x="8" y="-4" width="10" height="19" rx="2.2"/><path d="M11 12h4"/>
+    <path d="M5-5c3-2 5-2 7 0m-7 9c3 2 5 2 7 0" stroke="#67e8f9"/>
+  </g>
+  <text x="90" y="53" font-family="'Iowan Old Style','Palatino Linotype',Georgia,serif" font-size="23" font-weight="600" fill="#f4f6fb">RemoteBridge</text>
+  <text x="90" y="71" font-family="Inter,'Segoe UI',system-ui,Arial,sans-serif" font-size="12.5" fill="#7183a0">Cross-platform collaboration</text>
+  <circle cx="293" cy="26" r="4.5" fill="#67e8f9"/><text x="305" y="30.5" font-family="Inter,'Segoe UI',system-ui,Arial,sans-serif" font-size="13" fill="#cbd5e6">Desktop + mobile</text>
+  <text x="24" y="108" font-family="Inter,'Segoe UI',system-ui,Arial,sans-serif" font-size="14" fill="#a7b5c9">Self-hostable remote desktop and device fleet tools.</text>
+  <text x="24" y="128" font-family="Inter,'Segoe UI',system-ui,Arial,sans-serif" font-size="14" fill="#a7b5c9">Connect desktop and mobile clients through relay services.</text>
+  <g font-family="'JetBrains Mono','SFMono-Regular',Consolas,monospace" font-size="10.5" fill="#c1cde0">
+    <g transform="translate(24 146)"><rect width="68" height="26" rx="13" fill="#101d31" stroke="#2c3e5c"/><text x="34" y="17.5" text-anchor="middle">Python</text></g>
+    <g transform="translate(98 146)"><rect width="72" height="26" rx="13" fill="#101d31" stroke="#2c3e5c"/><text x="36" y="17.5" text-anchor="middle">Flutter</text></g>
+    <g transform="translate(176 146)"><rect width="112" height="26" rx="13" fill="#101d31" stroke="#2c3e5c"/><text x="56" y="17.5" text-anchor="middle">Remote control</text></g>
+    <g transform="translate(294 146)"><rect width="112" height="26" rx="13" fill="#101d31" stroke="#2c3e5c"/><text x="56" y="17.5" text-anchor="middle">Fleet console</text></g>
+  </g>
+</svg>

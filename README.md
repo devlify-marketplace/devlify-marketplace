@@ -37,8 +37,8 @@ I focus on dependable full-stack products, applied AI/ML, developer tools, and r
 ### Production systems
 <div align="center">
 <picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-atp-light.svg"><img src="./assets/project-atp.svg" width="49%" alt="African Transcript Platform: pan-African NX monorepo SaaS" /></picture>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-nexus-finos-light.svg"><img src="./assets/project-nexus-finos.svg" width="49%" alt="NEXUS FinOS: fintech platform" /></picture>
-<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-jidderh-finos-light.svg"><img src="./assets/project-jidderh-finos.svg" width="49%" alt="JIDDERH FinOS: fintech admin panel" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-production-system-light.svg"><img src="./assets/project-production-system.svg" width="49%" alt="Production System: factory operations system for production output, targets, downtime, alerts, audits, and reports" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-remotebridge-light.svg"><img src="./assets/project-remotebridge.svg" width="49%" alt="RemoteBridge: self-hostable cross-platform remote desktop and device fleet software" /></picture>
 <picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-murabaha-pos-light.svg"><img src="./assets/project-murabaha-pos.svg" width="49%" alt="MurabahaPOS: fuel POS with Django REST and Android" /></picture>
 <picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-fugusau-light.svg"><img src="./assets/project-fugusau.svg" width="49%" alt="FUGUSAU Portal: student portal" /></picture>
 <picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-caliphate-light.svg"><img src="./assets/project-caliphate.svg" width="49%" alt="Caliphate Schools Portal: school management portal" /></picture>
