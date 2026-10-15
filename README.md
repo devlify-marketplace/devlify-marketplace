@@ -46,11 +46,10 @@ I focus on dependable full-stack products, applied AI/ML, developer tools, and r
 <picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-nexuswhitelist-light.svg"><img src="./assets/project-nexuswhitelist.svg" width="49%" alt="NexusWhitelist: Merkle-proof NFT whitelist checker" /></picture>
 </div>
 
-### Applied machine learning
-<div align="center">
-<a href="https://github.com/devlify-marketplace/1-cassava-and-maize-leaf-disease-classification-using-transfer-learning"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-leaf-disease-light.svg"><img src="./assets/project-leaf-disease.svg" width="49%" alt="Cassava and Maize Leaf Disease Classification: transfer-learning image classifier with a MobileNetV2 model and FastAPI demo" /></picture></a>
-<a href="https://github.com/devlify-marketplace/4-sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-naija-sentiment-light.svg"><img src="./assets/project-naija-sentiment.svg" width="49%" alt="Naija Sentiment Analysis: Hausa, Yoruba and Igbo sentiment classification using Afro-XLM-RoBERTa" /></picture></a>
-</div>
+### Developer tools & product platforms
+- **Nexus IDE** — An AI-native IDE project centered on build-error repair, AI-assisted code completion, visual UI building, cloud compilation, and automated test generation.
+- **NaijaBiz** — A multi-tenant business-management SaaS for Nigerian SMEs, covering sales, inventory, customers, debts, expenses, staff roles, reporting, and Paystack subscription billing. Built with FastAPI, PostgreSQL, React, and TypeScript.
+- **Amanah Land & Properties** — A real-estate marketplace for Zamfara State, Nigeria, with property discovery, owner listings, and staff review/approval workflows. Built with Django REST Framework and Next.js.
 <p align="center">Explore more work in <a href="https://devsadeeq-portfolio.vercel.app/projects">the project portfolio</a>.</p>
 
 ### Devlify open source
