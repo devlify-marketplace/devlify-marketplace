@@ -21,7 +21,7 @@
 </div>
 
 ## About
-I’m **Sadiq Abdullahi**, a Software Developer and founder of **[Devlify](https://devlify.com.ng)**. I build web and mobile applications, business platforms, practical AI/ML features, and developer tools—turning real-world problems into dependable digital products.
+I’m **Sadiq Abdullahi**, a Software Developer and founder of **[Devlify Marketplace](https://devlify.com.ng)**. I build web and mobile applications, business platforms, practical AI/ML features, and developer tools—turning real-world problems into dependable digital products.
 
 My work spans full-stack product development, APIs, databases, automation, and deployment. I care about software that is useful, maintainable, and thoughtfully delivered.
 
