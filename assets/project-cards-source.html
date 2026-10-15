@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Selected developer tools and product platforms</title>
+<style>
+  * { box-sizing: border-box; }
+  :root {
+    color-scheme: dark;
+    --card: #0a1020;
+    --card-top: #11162a;
+    --ink: #f4f6fb;
+    --muted: #a1aec3;
+    --quiet: #6f819c;
+    --line: #253149;
+    --accent: #67e8f9;
+    --accent-soft: #092634;
+    --accent-border: #1b5364;
+    --chip: #101a2c;
+    --chip-line: #2a3b55;
+    --chip-ink: #c1cde0;
+  }
+  .light {
+    color-scheme: light;
+    --card: #f7f9fd;
+    --card-top: #fff;
+    --ink: #142036;
+    --muted: #45556e;
+    --quiet: #60728d;
+    --line: #d9e2f0;
+    --accent: #087f9a;
+    --accent-soft: #e1f4f8;
+    --accent-border: #b7dce5;
+    --chip: #edf2fa;
+    --chip-line: #d4dfef;
+    --chip-ink: #344761;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    width: 440px;
+    font-family: Inter, "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  }
+  .card {
+    width: 440px;
+    padding: 22px 24px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: 22px;
+    color: var(--ink);
+    background:
+      radial-gradient(ellipse at 94% 0%, color-mix(in srgb, var(--accent) 12%, transparent), transparent 47%),
+      linear-gradient(145deg, var(--card-top), var(--card));
+  }
+  .topline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .category {
+    color: var(--accent);
+    font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .105em;
+    line-height: 1.35;
+    text-transform: uppercase;
+  }
+  .mark {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    display: grid;
+    place-items: center;
+    border: 1px solid var(--accent-border);
+    border-radius: 13px;
+    color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .mark svg { width: 24px; height: 24px; }
+  h2 {
+    margin: -8px 0 0;
+    font-family: "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+    font-size: 23px;
+    font-weight: 650;
+    letter-spacing: -.025em;
+    line-height: 1.2;
+  }
+  p {
+    margin: -6px 0 0;
+    color: var(--muted);
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    padding-top: 1px;
+  }
+  .tag {
+    padding: 6px 9px;
+    border: 1px solid var(--chip-line);
+    border-radius: 999px;
+    color: var(--chip-ink);
+    background: var(--chip);
+    font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
+    font-size: 9.5px;
+    line-height: 1.2;
+    white-space: nowrap;
+  }
+</style>
+</head>
+<body>
+  <article class="card" data-project="nexus-ide" aria-label="Nexus IDE project card">
+    <div class="topline">
+      <span class="category">AI-native IDE</span>
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6M16 6l6 6-6 6M14 4l-4 16"/></svg></span>
+    </div>
+    <h2>Nexus IDE</h2>
+    <p>AI-native development environment for build-error repair, AI-assisted code completion, visual UI building, cloud compilation, and automated test generation.</p>
+    <div class="tags" aria-label="Nexus IDE capabilities">
+      <span class="tag">AI coding</span><span class="tag">Visual UI builder</span><span class="tag">Cloud compile · tests</span>
+    </div>
+  </article>
+
+  <article class="card" data-project="naijabiz" aria-label="NaijaBiz project card">
+    <div class="topline">
+      <span class="category">Business management · SaaS</span>
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20V11M9 20V5M15 20v-8M21 20V8M2 20h20"/></svg></span>
+    </div>
+    <h2>NaijaBiz</h2>
+    <p>Multi-tenant business-management SaaS for Nigerian SMEs, covering sales, inventory, customers, debts, expenses, staff roles, reporting, and Paystack subscription billing.</p>
+    <div class="tags" aria-label="NaijaBiz capabilities">
+      <span class="tag">SME operations</span><span class="tag">Multi-tenant</span><span class="tag">Paystack billing</span>
+    </div>
+  </article>
+
+  <article class="card" data-project="amanah-land" aria-label="Amanah Land and Properties project card">
+    <div class="topline">
+      <span class="category">Real-estate marketplace</span>
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+    </div>
+    <h2>Amanah Land &amp; Properties</h2>
+    <p>Zamfara real-estate marketplace for property discovery and owner listings, with staff review and approval workflows.</p>
+    <div class="tags" aria-label="Amanah Land and Properties capabilities">
+      <span class="tag">Zamfara</span><span class="tag">Owner listings</span><span class="tag">Staff approvals</span>
+    </div>
+  </article>
+</body>
+</html>

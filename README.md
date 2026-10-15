@@ -47,9 +47,11 @@ I focus on dependable full-stack products, applied AI/ML, developer tools, and r
 </div>
 
 ### Developer tools & product platforms
-- **Nexus IDE** — An AI-native IDE project centered on build-error repair, AI-assisted code completion, visual UI building, cloud compilation, and automated test generation.
-- **NaijaBiz** — A multi-tenant business-management SaaS for Nigerian SMEs, covering sales, inventory, customers, debts, expenses, staff roles, reporting, and Paystack subscription billing. Built with FastAPI, PostgreSQL, React, and TypeScript.
-- **Amanah Land & Properties** — A real-estate marketplace for Zamfara State, Nigeria, with property discovery, owner listings, and staff review/approval workflows. Built with Django REST Framework and Next.js.
+<div align="center">
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-nexus-ide-light.png"><img src="./assets/project-nexus-ide-dark.png" width="32%" alt="Nexus IDE: AI-native IDE for build-error repair, AI-assisted code completion, visual UI building, cloud compilation, and automated test generation" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-naijabiz-light.png"><img src="./assets/project-naijabiz-dark.png" width="32%" alt="NaijaBiz: multi-tenant business-management SaaS for Nigerian SMEs with sales, inventory, customers, debts, expenses, staff roles, reporting, and Paystack subscription billing" /></picture>
+<picture><source media="(prefers-color-scheme: light)" srcset="./assets/project-amanah-land-light.png"><img src="./assets/project-amanah-land-dark.png" width="32%" alt="Amanah Land & Properties: Zamfara real-estate marketplace with property discovery, owner listings, and staff review and approval workflows" /></picture>
+</div>
 <p align="center">Explore more work in <a href="https://devsadeeq-portfolio.vercel.app/projects">the project portfolio</a>.</p>
 
 ### Devlify open source
