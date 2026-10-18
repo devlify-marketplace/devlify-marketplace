@@ -94,11 +94,11 @@ I focus on dependable full-stack products, applied AI/ML, developer tools, and r
 
 ### Recently active
 <!-- RECENT:START -->
-- [**8-fake-news-detection-on-nigerian-social-media-using-bidirectional-lstm**](https://github.com/devlify-marketplace/8-fake-news-detection-on-nigerian-social-media-using-bidirectional-lstm) `Python`: 8 - Fake News Detection on Nigerian Social Media Using Bidirectional LSTM
+- [**77-event-ticketing-system-with-qr-based-duplicate-prevention**](https://github.com/devlify-marketplace/77-event-ticketing-system-with-qr-based-duplicate-prevention) `Python`: 77 - Event Ticketing System with QR-Based Duplicate Prevention
 - [**7-tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet**](https://github.com/devlify-marketplace/7-tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet) `Python`: 7 - Tuberculosis Detection from Chest X-Rays Using DenseNet and ResNet
 - [**6-malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network**](https://github.com/devlify-marketplace/6-malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network) `Python`: 6 - Malaria Parasite Detection from Blood Smear Images Using a Convolutional Neural Network
-- [**5-hausa-to-english-neural-machine-translation-using-a-sequence-to-sequence-transformer**](https://github.com/devlify-marketplace/5-hausa-to-english-neural-machine-translation-using-a-sequence-to-sequence-transformer) `Python`: 5 - Hausa-to-English Neural Machine Translation Using a Sequence-to-Sequence Transformer
 - [**4-sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model**](https://github.com/devlify-marketplace/4-sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model) `Python`: 4 - Sentiment Analysis for Hausa, Yoruba and Igbo Using a Fine-Tuned BERT Model
+- [**3-autoencoder-based-anomaly-detection-for-mobile-money-and-pos-fraud**](https://github.com/devlify-marketplace/3-autoencoder-based-anomaly-detection-for-mobile-money-and-pos-fraud) `Python`: 3 - Autoencoder-Based Anomaly Detection for Mobile Money and POS Fraud
 <!-- RECENT:END -->
 <div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img src="./assets/divider.svg" width="100%" alt="" /></picture></div>
 
