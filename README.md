@@ -94,11 +94,11 @@ I focus on dependable full-stack products, applied AI/ML, developer tools, and r
 
 ### Recently active
 <!-- RECENT:START -->
-- [**77-event-ticketing-system-with-qr-based-duplicate-prevention**](https://github.com/devlify-marketplace/77-event-ticketing-system-with-qr-based-duplicate-prevention) `Python`: 77 - Event Ticketing System with QR-Based Duplicate Prevention
-- [**7-tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet**](https://github.com/devlify-marketplace/7-tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet) `Python`: 7 - Tuberculosis Detection from Chest X-Rays Using DenseNet and ResNet
-- [**6-malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network**](https://github.com/devlify-marketplace/6-malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network) `Python`: 6 - Malaria Parasite Detection from Blood Smear Images Using a Convolutional Neural Network
-- [**4-sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model**](https://github.com/devlify-marketplace/4-sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model) `Python`: 4 - Sentiment Analysis for Hausa, Yoruba and Igbo Using a Fine-Tuned BERT Model
-- [**3-autoencoder-based-anomaly-detection-for-mobile-money-and-pos-fraud**](https://github.com/devlify-marketplace/3-autoencoder-based-anomaly-detection-for-mobile-money-and-pos-fraud) `Python`: 3 - Autoencoder-Based Anomaly Detection for Mobile Money and POS Fraud
+- [**event-ticketing-system-with-qr-based-duplicate-prevention**](https://github.com/devlify-marketplace/event-ticketing-system-with-qr-based-duplicate-prevention) `Python`: Event Ticketing System with QR-Based Duplicate Prevention
+- [**tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet**](https://github.com/devlify-marketplace/tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet) `Python`: Tuberculosis Detection from Chest X-Rays Using DenseNet and ResNet
+- [**malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network**](https://github.com/devlify-marketplace/malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network) `Python`: Malaria Parasite Detection from Blood Smear Images Using a Convolutional Neural Network
+- [**sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model**](https://github.com/devlify-marketplace/sentiment-analysis-for-hausa-yoruba-and-igbo-using-a-fine-tuned-bert-model) `Python`: Sentiment Analysis for Hausa, Yoruba and Igbo Using a Fine-Tuned BERT Model
+- [**autoencoder-based-anomaly-detection-for-mobile-money-and-pos-fraud**](https://github.com/devlify-marketplace/autoencoder-based-anomaly-detection-for-mobile-money-and-pos-fraud) `Python`: Autoencoder-Based Anomaly Detection for Mobile Money and POS Fraud
 <!-- RECENT:END -->
 <div align="center"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/divider-light.svg"><img src="./assets/divider.svg" width="100%" alt="" /></picture></div>
 
