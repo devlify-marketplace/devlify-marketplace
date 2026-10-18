@@ -69,11 +69,12 @@ def fetch():
     contrib = None
     if TOKEN:
         q = """query($login:String!){user(login:$login){contributionsCollection{
-          totalCommitContributions totalPullRequestContributions totalIssueContributions restrictedContributionsCount}}}"""
+          totalCommitContributions totalPullRequestContributions totalIssueContributions restrictedContributionsCount
+          contributionCalendar{totalContributions}}}}"""
         try:
             res = request("https://api.github.com/graphql", {"query": q, "variables": {"login": USER}})
             c = res["data"]["user"]["contributionsCollection"]
-            contrib = dict(commits=c["totalCommitContributions"] + c["restrictedContributionsCount"],
+            contrib = dict(contributions=c["contributionCalendar"]["totalContributions"],
                            prs=c["totalPullRequestContributions"], issues=c["totalIssueContributions"])
         except Exception as e:
             print("graphql skipped:", e)
@@ -114,7 +115,7 @@ def shell(W, H, title, sub, body, label):
 def stats_svg(user, stars, forks, contrib):
     items = [("Projects", PROJECT_COUNT), ("Stars earned", stars), ("Forks", forks), ("Followers", user["followers"])]
     if contrib:
-        items += [("Commits, past year", contrib["commits"]), ("Pull requests", contrib["prs"])]
+        items += [("Contributions, 1y", contrib["contributions"]), ("Pull requests", contrib["prs"])]
     W, cols = 440, 3
     rows = (len(items) + cols - 1) // cols
     H = 84 + rows * 62 + 22
