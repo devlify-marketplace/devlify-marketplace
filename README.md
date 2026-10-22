@@ -94,9 +94,9 @@ I focus on dependable full-stack products, applied AI/ML, developer tools, and r
 
 ### Recently active
 <!-- RECENT:START -->
-- [**california-housing-spatial-intervals**](https://github.com/devlify-marketplace/california-housing-spatial-intervals) `Jupyter Notebook`
 - [**devlify-vectordb**](https://github.com/devlify-marketplace/devlify-vectordb) `Go`: High-performance vector database for AI applications
 - [**event-ticketing-system-with-qr-based-duplicate-prevention**](https://github.com/devlify-marketplace/event-ticketing-system-with-qr-based-duplicate-prevention) `Python`: Event Ticketing System with QR-Based Duplicate Prevention
+- [**california-housing-spatial-intervals**](https://github.com/devlify-marketplace/california-housing-spatial-intervals) `Jupyter Notebook`
 - [**tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet**](https://github.com/devlify-marketplace/tuberculosis-detection-from-chest-x-rays-using-densenet-and-resnet) `Python`: Tuberculosis Detection from Chest X-Rays Using DenseNet and ResNet
 - [**malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network**](https://github.com/devlify-marketplace/malaria-parasite-detection-from-blood-smear-images-using-a-convolutional-neural-network) `Python`: Malaria Parasite Detection from Blood Smear Images Using a Convolutional Neural Network
 <!-- RECENT:END -->
