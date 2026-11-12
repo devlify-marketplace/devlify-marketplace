@@ -1,5 +1,5 @@
 Suggested GitHub bio:
-Software Developer building web, mobile and AI/ML products. Full-stack systems, APIs and developer tools. Founder of Devlify. Gusau, Nigeria
+Software Developer building web, mobile and AI/ML products. Full-stack systems, APIs and developer tools. Founder of Devlify. Zamfara, Nigeria
 
 Suggested status: Building useful software at Devlify
-Location field: Gusau, Nigeria
+Location field: Zamfara, Nigeria
